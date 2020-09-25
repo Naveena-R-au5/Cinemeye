@@ -1,0 +1,19 @@
+.Nav{
+    /* position: fixed; */
+    background-color:transparent;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding:10px;
+}
+.ele{
+    color:white;
+    text-decoration: none !important;
+    padding-left: 20px;
+}
+.ele:hover{
+    color:rgb(90, 110, 223);
+}
+.ele:focus{
+    color:rgb(90, 110, 223);
+}

@@ -1,0 +1,126 @@
+.main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    overflow-x: hidden;
+}
+.sidenav{
+    position: fixed;
+    width:20%;
+    height:40%;
+    margin-top: 5%;
+    background-color:transparent;
+    z-index: auto;
+}
+.h5{
+    padding:10px;
+    margin-left:15px;
+    text-align:start;
+    color:white;
+    font-size: 18px !important;
+    font-weight: normal;
+}
+.h5:hover{
+    cursor: pointer;
+    background-color: #233258;
+    border-radius: 10px;
+    width:60%;
+}
+.h4{
+    font-size: 12px;
+    margin-left:27px;
+    color:rgb(160, 158, 158)
+}
+.last{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:50px !important;
+    padding-left:10px;
+    color:white;
+}
+.main2{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    width:80%;
+    margin-left: 230px;
+}
+.content{
+    width:95%;
+    height:60%;
+    margin-bottom: 10px;
+    margin-top: 90px;
+    border-radius: 20px;
+}
+.im{
+    width:100%;
+    height:350px;
+    border-radius: 30px;
+}
+.im2{
+    width:100%;
+    height:350px;
+    border-radius: 30px;
+}
+.cap{
+    text-align: start !important;
+    margin-top: 10px !important;
+    width:380px !important;
+}
+.p{
+    font-size: 12px;
+}
+
+.bu{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 12px;
+    
+}
+.b{
+    background-color: #233258;
+    padding:5px;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+.social :hover{
+     color:blue;
+     cursor: pointer;
+}
+@media only screen and (max-width: 770px) {
+    .sidenav{
+        display: none;
+    }
+    .main2{
+        display:flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        width:100%;
+        margin-left: 0px;
+    }
+    .content{
+        width:100%;
+        height:60%;
+        margin-bottom: 10px;
+        margin-top: 90px;
+        border-radius: 0px;
+    }
+    .im{
+        width:100%;
+        height:350px;
+        border-radius: 0px;
+    }
+    .im2{
+        width:100%;
+        height:350px;
+        border-radius: 0px;
+    }
+    .cap{
+        text-align: start !important;
+        margin-top: 10px !important;
+        width:300px !important;
+    }
+
+}

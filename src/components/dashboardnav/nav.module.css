@@ -1,0 +1,45 @@
+.b1{
+    margin-left: 10px;
+    margin-right: 90px;
+    background-color: #233258;
+    color:rgb(150, 147, 147);
+    border-style: none;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 10px;
+}
+.b2{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #233258;
+    color:blue;
+    border-style: none;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 10px;
+}
+.b3{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:blue;
+    color:white;
+    border-style: none;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 10px;
+}
+.img{
+    width:45px;
+    height:45px;
+
+}
+.heading{
+    font-size: 25px;
+    margin-right: 10px;
+}

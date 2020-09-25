@@ -1,0 +1,112 @@
+.main{
+    width:200% !important;
+    display: inline-block;
+    /* position: fixed; */
+    margin-bottom: 60px;
+    overflow-x: scroll !important;
+}
+.main2{
+    width:95% !important;
+    /* display: inline-block; */
+    /* position: fixed; */
+    margin-bottom: 60px;
+    /* overflow-x: scroll !important; */
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+.scroll{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.scroll2{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.main .scroll{
+    width:150% !important;
+}
+
+.head{
+    width:95%;
+    color:white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h{
+    color:white;
+    font-size: 17px;  
+}
+.h2{
+    color:white;
+    font-size: 17px;
+    float:right;  
+}
+.root{
+    max-width: 325px !important;
+    /* max-height: 325px; */
+    border-radius: 20px !important;
+    background-color: #233258 !important;
+    color:white !important;
+    margin-left: 20px !important;
+    
+    
+}
+
+.content{
+    width:350px !important;
+    color:white !important;
+}
+.more{
+    color:white;
+    margin-top: 90px;
+    padding:10px
+}
+.more:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+@media only screen and (max-width: 770px) {
+    .root{
+        max-width: 225px !important;
+        border-radius: 20px !important;
+        background-color: #233258 !important;
+        color:white !important;
+        margin-left: 10px !important;
+        
+        
+    }
+    .content{
+        width:250px !important;
+        font-size: 12px !important;
+        color:white !important;
+    }
+    .main2{
+        width:200% !important;
+        display: inline-block;
+        overflow-x: scroll !important;
+    }
+    .main{
+        width:690% !important;
+        display: inline-block;
+        overflow-x: scroll !important;
+    }
+    .main2 .scroll2{
+        width:150% !important;
+    }
+    .main .scroll{
+        width:150% !important;
+    }
+    .h{
+        color:white;
+        font-size: 17px;  
+        margin-left: 10px;
+    }
+}
